@@ -10,5 +10,7 @@ You can also see access live and updated data via The Grid's API.
 ## Dual License
 
 This json file is dual licensed and available under:
-1 Apache 2.0; and
-1 Open Database License
+
+Apache 2.0; and
+
+Open Database License
