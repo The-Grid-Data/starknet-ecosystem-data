@@ -43650,10 +43650,10 @@
           {
             "id": "id1748266748-omUEPZXkQp6v0OE-6E_dPw",
             "name": "Consensys",
-            "tagLine": "A complete suite of products to create and participate in web3",
-            "descriptionShort": "Consensys is a blockchain software company that builds tools for developers to create and manage decentralized applications on Ethereum.",
-            "descriptionLong": "Consensys is a blockchain software company that provides tools for developers to build, deploy, and manage decentralized applications. Users can access infrastructure through Infura, develop smart contracts with Truffle, and manage digital assets using MetaMask. The platform focuses on supporting the Ethereum ecosystem by offering practical tools for scalable and secure Web3 development.",
-            "foundingDate": "2015-03-01",
+            "tagLine": "Building the future of digital markets",
+            "descriptionShort": "Consensys is a blockchain infrastructure company that builds protocol-level software and tools for the Ethereum ecosystem. It provides node clients, staking infrastructure, and security auditing for financial institutions and enterprises.",
+            "descriptionLong": "Consensys is a blockchain infrastructure company that builds protocol level software and institutional tools for the Ethereum ecosystem. It provides node clients, staking infrastructure, smart contract security audits, and validator signing services. Its offerings serve financial institutions, enterprises, and infrastructure operators building on Ethereum and Ethereum compatible networks.\n\nThe company works with banks, asset managers, custodians, exchanges, and other financial market infrastructure providers to deploy blockchain technology aligned with their regulatory and operational requirements. It supports institutions across network design, integration, and ongoing operation, offering advisory services, platform engineering, and managed operations for permissioned and public Ethereum based deployments.\n\nIts portfolio includes Besu, an open source Ethereum client used in public and private network deployments, Teku, a client built for institutional staking, and Web3Signer, a signing service for validators and custodians. Consensys Diligence provides smart contract auditing and security tooling, while Consensys Staking offers infrastructure for institutional validators. These products are used by banks, asset managers, central banks, custodians, and exchanges building tokenized and onchain financial infrastructure, and the company recently reorganized to concentrate on this institutional and protocol infrastructure focus, separating from its consumer facing business.",
+            "foundingDate": "2014-11-01",
             "iconMedia": [
               {
                 "url": "https://media.thegrid.id/id1748266746-aYkhzkIIS3ia-EK7Rfg_Rg/7/id1748266748-omUEPZXkQp6v0OE-6E_dPw/id1761223287-yofTwDGNQzWuWUaALp4d4Q/image-1762950886.svg",
@@ -43671,9 +43671,9 @@
               }
             ],
             "profileSector": {
-              "id": "10",
-              "name": "Developer Tooling",
-              "definition": "Services, products, and frameworks that support developers in designing, building, testing, and deploying decentralized applications and smart contracts on blockchain platforms. This includes both specialized Web3 development tools and traditional software platforms offering blockchain development capabilities."
+              "id": "12",
+              "name": "Infrastructure",
+              "definition": "The sector comprises foundational technologies, protocols, and services that enable the operation, scaling, and interoperability of blockchain networks and decentralized applications. This includes services such as network access, node operation, data indexing, offchain data delivery, cross-chain connectivity, and transaction validation."
             },
             "profileStatus": {
               "id": "2",
@@ -43777,7 +43777,21 @@
             ]
           },
           {
-            "id": "id1749503617-mfH0-q5WSAiPO7CQDMegJA",
+            "id": "id1790786883-XiATipu4QQC1VnAy-Q5bTg",
+            "name": "consensys-incorporated",
+            "socialType": {
+              "id": "6",
+              "name": "LinkedIn",
+              "definition": "LinkedIn professional networking service"
+            },
+            "urls": [
+              {
+                "url": "https://www.linkedin.com/company/consensys-incorporated"
+              }
+            ]
+          },
+          {
+            "id": "id1790787020-Niura7P9QpOEEM2j-IGecw",
             "name": "ConsenSysAudits",
             "socialType": {
               "id": "1",
@@ -43795,7 +43809,7 @@
           {
             "id": "id1749503283-lvx0huN0RO-zbGKWpMNHrQ",
             "name": "Consensys Diligence",
-            "description": "Consensys Diligence implements smart contract audit methodologies through automated analysis engines and manual security reviews, providing vulnerability detection and formal verification services. The system combines static analysis, symbolic execution, and fuzzing techniques while delivering detailed security reports with mitigation guidance.",
+            "description": "Consensys Diligence is a smart contract audit service that combines automated analysis engines with manual security review to detect vulnerabilities before deployment. It applies static analysis, symbolic execution, and fuzzing techniques, and delivers detailed reports with mitigation guidance. The service audits contracts deployed on Ethereum and Starknet.",
             "isMainProduct": 0,
             "launchDate": null,
             "productStatus": {
@@ -43820,7 +43834,7 @@
           {
             "id": "id1751008019-dfVhbLK_Qr2r8j9a8YclDg",
             "name": "Besu",
-            "description": "Besu operates as an open-source Ethereum client written in Java under Apache 2.0 license, supporting both public and private blockchain networks. The client enables enterprise-grade Ethereum deployment with full protocol compatibility.",
+            "description": "Besu is an open-source Ethereum client written in Java, licensed under Apache 2.0, that supports both public and private blockchain networks. It provides full protocol compatibility for enterprise-grade Ethereum deployments.",
             "isMainProduct": 0,
             "launchDate": null,
             "productStatus": {
@@ -43845,7 +43859,7 @@
           {
             "id": "id1751008120-jz6J7taXQpm0sfIbskK11Q",
             "name": "Teku",
-            "description": "Teku is an Ethereum consensus client supporting proof-of-stake validation, enabling enterprise staking operations and network participation. The client provides institutional-grade staking infrastructure for Ethereum 2.0.",
+            "description": "Teku is an Ethereum consensus client that supports proof-of-stake validation for institutional staking operations. It provides infrastructure for network participation and validator operations on Ethereum.",
             "isMainProduct": 0,
             "launchDate": null,
             "productStatus": {
@@ -43870,7 +43884,7 @@
           {
             "id": "id1751008130-_12E_60aT9Oo9hfQeB5YIA",
             "name": "ConsenSys Staking",
-            "description": "ConsenSys Staking provides managed staking services for enterprises and institutions, enabling secure ETH staking with professional infrastructure management. The service offers reliable validation and reward distribution for institutional clients.",
+            "description": "ConsenSys Staking is a managed staking service that lets enterprises and institutions stake ETH without operating their own validator infrastructure. It handles validator selection, operations, and reward distribution while keeping staked tokens under the client's control. The service offers an API for integrating staking into applications alongside a dedicated staking dashboard.",
             "isMainProduct": 1,
             "launchDate": null,
             "productStatus": {
@@ -43888,6 +43902,56 @@
                 "url": "https://consensys.io/staking",
                 "urlType": {
                   "name": "Product"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id1790786912-FpPTZ4TkTIaO_duq1pRKvw",
+            "name": "Web3Signer",
+            "description": "Web3Signer is a remote signing service that manages private keys and signs transactions and blocks on behalf of Ethereum validators and node operators. It separates key management from node infrastructure, allowing operators to sign consensus and transaction data without exposing keys directly on validator hardware. The tool is used by staking and validation operations requiring secure, centralized key management.",
+            "isMainProduct": 0,
+            "launchDate": null,
+            "productStatus": {
+              "id": "5",
+              "name": "Live",
+              "definition": "The product is fully deployed, accessible, and usable by anyone."
+            },
+            "productType": {
+              "id": "46",
+              "name": "Node Software",
+              "definition": "Client software enabling computers to participate in blockchain networks through validation, consensus, or network operations. Operators install and run this software on their own hardware to maintain network infrastructure."
+            },
+            "urls": [
+              {
+                "url": "https://docs.web3signer.consensys.io",
+                "urlType": {
+                  "name": "Documentation"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id1790786926-JqfXT3XiRWmxsTwSg-aXtQ",
+            "name": "Lineth",
+            "description": "Lineth is an open-source zero-knowledge rollup stack that developers use to build scalable Ethereum-based networks. It provides the underlying framework and tooling for launching custom rollups rather than being a single deployed chain itself. The project is maintained under the Linux Foundation Decentralized Trust umbrella alongside other Consensys-originated infrastructure tools.",
+            "isMainProduct": 0,
+            "launchDate": null,
+            "productStatus": {
+              "id": "5",
+              "name": "Live",
+              "definition": "The product is fully deployed, accessible, and usable by anyone."
+            },
+            "productType": {
+              "id": "3607",
+              "name": "Developer Tooling",
+              "definition": "Software development kits, frameworks, and APIs facilitating blockchain application development, testing, and deployment. Developers use these tools to build, debug, and deploy smart contracts and decentralized applications more efficiently."
+            },
+            "urls": [
+              {
+                "url": "https://github.com/LFDT-Lineth",
+                "urlType": {
+                  "name": "Documentation"
                 }
               }
             ]

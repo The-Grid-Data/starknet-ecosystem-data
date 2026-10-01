@@ -11,8 +11,6 @@ import ssl
 import sys
 import urllib.request
 
-import certifi
-
 ENDPOINT = "https://beta.node.thegrid.id/graphql"
 TAG_ID = "id1738748042-W5oej0O8QJezGZ0RPXAHFg"  # the "Starknet" external profile tag
 PAGE_SIZE = 50
@@ -65,7 +63,17 @@ query Starknet($tag: String!, $limit: Int!, $offset: Int!) {
 }
 """
 
-SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+def ssl_context():
+    # Python installed from python.org ships no root certificates on macOS; fall
+    # back to certifi when the system store is empty.
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
+
+SSL_CONTEXT = ssl_context()
 
 
 def gql(variables):
